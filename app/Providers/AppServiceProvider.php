@@ -11,8 +11,6 @@ use App\Repositories\Eloquent\NotificationRepository;
 use App\Repositories\Eloquent\ScheduleRepository;
 use App\Repositories\Eloquent\UserRepository;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -33,10 +31,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        If (env('APP_ENV') !== 'local') {
-		    $this->app['request']->server->set('HTTPS', true);
-	    }
-        URL::forceScheme('https');
-	    Schema::defaultStringLength(191);
+        // 
     }
 }
