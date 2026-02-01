@@ -11,7 +11,7 @@ const PhoneInput = ({
   const [selectedCountry, setSelectedCountry] = useState("US");
   const [phoneNumber, setPhoneNumber] = useState("+1");
 
-  const countryCodes: Record<string, string> = countries.reduce(
+  const countryCodes = countries.reduce(
     (acc, { code, label }) => ({ ...acc, [code]: label }),
     {}
   );
