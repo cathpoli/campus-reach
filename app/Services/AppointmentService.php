@@ -92,8 +92,8 @@ class AppointmentService
             'is_read' => 0,
         ]);
 
-        $notification->load(['sender.profile', 'receiver']);
-        broadcast(new NewNotificationEvent($notification))->toOthers();
+        // $notification->load(['sender.profile', 'receiver']);
+        // broadcast(new NewNotificationEvent($notification))->toOthers();
 
         $this->scheduleRepo->updateStatus($schedule->schedule_id, 'booked');
 
@@ -114,8 +114,8 @@ class AppointmentService
             'message' => 'Your appointment request has been approved',
             'is_read' => 0,
         ]);
-        $notification->load(['sender.profile', 'receiver']);
-        broadcast(new NewNotificationEvent($notification))->toOthers();
+        // $notification->load(['sender.profile', 'receiver']);
+        // broadcast(new NewNotificationEvent($notification))->toOthers();
 
         return ['success' => true];
     }
@@ -137,8 +137,8 @@ class AppointmentService
             'message' => 'Your appointment request has been declined',
             'is_read' => 0,
         ]);
-        $notification->load(['sender.profile', 'receiver']);
-        broadcast(new NewNotificationEvent($notification))->toOthers();
+        // $notification->load(['sender.profile', 'receiver']);
+        // broadcast(new NewNotificationEvent($notification))->toOthers();
 
         return ['success' => true];
     }
@@ -157,8 +157,8 @@ class AppointmentService
             'message' => 'Your appointment has been completed. Check if there are any notes or follow-ups needed.',
             'is_read' => 0,
         ]);
-        $notification->load(['sender.profile', 'receiver']);
-        broadcast(new NewNotificationEvent($notification))->toOthers();
+        // $notification->load(['sender.profile', 'receiver']);
+        // broadcast(new NewNotificationEvent($notification))->toOthers();
 
         return ['success' => true];
     }
