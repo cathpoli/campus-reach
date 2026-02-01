@@ -1,0 +1,1 @@
+import{j as m}from"./app-BpMrd8A8.js";import i from"./AdminDashboard-C8o4Jtuk.js";import"./AppLayout-C6t-PRuo.js";import"./calender-line-CgieKiv7.js";import"./PageMeta-WwP9N5ca.js";function f({totalTeachers:o,totalStudents:r,approvedAppointments:t}){return m.jsx(i,{totalTeachers:o,totalStudents:r,approvedAppointments:t})}export{f as default};

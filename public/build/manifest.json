@@ -1,0 +1,568 @@
+{
+  "_AppLayout-C6t-PRuo.js": {
+    "file": "assets/AppLayout-C6t-PRuo.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.jsx",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "_Badge-BFSTZFyp.js": {
+    "file": "assets/Badge-BFSTZFyp.js",
+    "name": "Badge",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Button-CepcnBa8.js": {
+    "file": "assets/Button-CepcnBa8.js",
+    "name": "Button",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Checkbox-DOO6dRdP.js": {
+    "file": "assets/Checkbox-DOO6dRdP.js",
+    "name": "Checkbox",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_ComponentCard-DzR7vOyC.js": {
+    "file": "assets/ComponentCard-DzR7vOyC.js",
+    "name": "ComponentCard",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_InputField-AGAXowZ_.js": {
+    "file": "assets/InputField-AGAXowZ_.js",
+    "name": "InputField",
+    "imports": [
+      "resources/js/app.jsx",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "_PageBreadCrumb-BmYRIvfY.js": {
+    "file": "assets/PageBreadCrumb-BmYRIvfY.js",
+    "name": "PageBreadCrumb",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_PageMeta-WwP9N5ca.js": {
+    "file": "assets/PageMeta-WwP9N5ca.js",
+    "name": "PageMeta",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Pagination-rdYSm_T_.js": {
+    "file": "assets/Pagination-rdYSm_T_.js",
+    "name": "Pagination",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_PurePanel-BNlV4Pjj.js": {
+    "file": "assets/PurePanel-BNlV4Pjj.js",
+    "name": "PurePanel",
+    "imports": [
+      "resources/js/app.jsx",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "_calender-line-CgieKiv7.js": {
+    "file": "assets/calender-line-CgieKiv7.js",
+    "name": "calender-line",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_clsx-B-dksMZM.js": {
+    "file": "assets/clsx-B-dksMZM.js",
+    "name": "clsx"
+  },
+  "_index-BShJ8RS-.js": {
+    "file": "assets/index-BShJ8RS-.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx",
+      "_PurePanel-BNlV4Pjj.js",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "_sweetalert2.esm.all-B3GDCxSY.js": {
+    "file": "assets/sweetalert2.esm.all-B3GDCxSY.js",
+    "name": "sweetalert2.esm.all"
+  },
+  "_useModal-D3Uoha5y.js": {
+    "file": "assets/useModal-D3Uoha5y.js",
+    "name": "useModal",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Cs9XIEGw.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/pages/Appointment/BookAppointment.jsx": {
+    "file": "assets/BookAppointment-Bbp9rW9X.js",
+    "name": "BookAppointment",
+    "src": "resources/js/Pages/pages/Appointment/BookAppointment.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/AppointmentList/StudentAppointmentList.jsx": {
+    "file": "assets/StudentAppointmentList-D--Qk5Sm.js",
+    "name": "StudentAppointmentList",
+    "src": "resources/js/Pages/pages/AppointmentList/StudentAppointmentList.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_Pagination-rdYSm_T_.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_index-BShJ8RS-.js",
+      "_calender-line-CgieKiv7.js",
+      "_PurePanel-BNlV4Pjj.js",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "resources/js/Pages/pages/AppointmentList/TeacherAppointmentList.jsx": {
+    "file": "assets/TeacherAppointmentList-BzVehF3n.js",
+    "name": "TeacherAppointmentList",
+    "src": "resources/js/Pages/pages/AppointmentList/TeacherAppointmentList.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_Pagination-rdYSm_T_.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_index-BShJ8RS-.js",
+      "_calender-line-CgieKiv7.js",
+      "_PurePanel-BNlV4Pjj.js",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "resources/js/Pages/pages/AuthPages/AuthPageLayout.jsx": {
+    "file": "assets/AuthPageLayout-BTsKfNvs.js",
+    "name": "AuthPageLayout",
+    "src": "resources/js/Pages/pages/AuthPages/AuthPageLayout.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/pages/AuthPages/SignIn.jsx": {
+    "file": "assets/SignIn-YXuBLE2W.js",
+    "name": "SignIn",
+    "src": "resources/js/Pages/pages/AuthPages/SignIn.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "resources/js/Pages/pages/AuthPages/AuthPageLayout.jsx",
+      "_Checkbox-DOO6dRdP.js",
+      "_InputField-AGAXowZ_.js",
+      "_Button-CepcnBa8.js",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "resources/js/Pages/pages/AuthPages/SignUp.jsx": {
+    "file": "assets/SignUp-BYcLUemU.js",
+    "name": "SignUp",
+    "src": "resources/js/Pages/pages/AuthPages/SignUp.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "resources/js/Pages/pages/AuthPages/AuthPageLayout.jsx",
+      "_Checkbox-DOO6dRdP.js",
+      "_InputField-AGAXowZ_.js",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "resources/js/Pages/pages/Calendar.jsx": {
+    "file": "assets/Calendar-DlrkhCP6.js",
+    "name": "Calendar",
+    "src": "resources/js/Pages/pages/Calendar.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_useModal-D3Uoha5y.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Calendar/StudentCalendar.jsx": {
+    "file": "assets/StudentCalendar-CsIWq4S8.js",
+    "name": "StudentCalendar",
+    "src": "resources/js/Pages/pages/Calendar/StudentCalendar.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Dashboard/Admin/AdminDashboard.jsx": {
+    "file": "assets/AdminDashboard-C8o4Jtuk.js",
+    "name": "AdminDashboard",
+    "src": "resources/js/Pages/pages/Dashboard/Admin/AdminDashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Dashboard/Home.jsx": {
+    "file": "assets/Home-DxpOxpVL.js",
+    "name": "Home",
+    "src": "resources/js/Pages/pages/Dashboard/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/pages/Dashboard/Admin/AdminDashboard.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_calender-line-CgieKiv7.js",
+      "_PageMeta-WwP9N5ca.js"
+    ]
+  },
+  "resources/js/Pages/pages/Dashboard/Student/StudentDashboard.jsx": {
+    "file": "assets/StudentDashboard-BsASIBQS.js",
+    "name": "StudentDashboard",
+    "src": "resources/js/Pages/pages/Dashboard/Student/StudentDashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Dashboard/Teacher/TeacherDashboard.jsx": {
+    "file": "assets/TeacherDashboard-CXYaUbP3.js",
+    "name": "TeacherDashboard",
+    "src": "resources/js/Pages/pages/Dashboard/Teacher/TeacherDashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Forms/FormElements.jsx": {
+    "file": "assets/FormElements-CGxR1iYf.js",
+    "name": "FormElements",
+    "src": "resources/js/Pages/pages/Forms/FormElements.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_ComponentCard-DzR7vOyC.js",
+      "_InputField-AGAXowZ_.js",
+      "_Checkbox-DOO6dRdP.js",
+      "_calender-line-CgieKiv7.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_clsx-B-dksMZM.js"
+    ],
+    "css": [
+      "assets/FormElements-BsM4JrO0.css"
+    ]
+  },
+  "resources/js/Pages/pages/Schedule/AddSchedule.jsx": {
+    "file": "assets/AddSchedule-DDo-jGPn.js",
+    "name": "AddSchedule",
+    "src": "resources/js/Pages/pages/Schedule/AddSchedule.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Schedule/EditSchedule.jsx": {
+    "file": "assets/EditSchedule-DeaIMLve.js",
+    "name": "EditSchedule",
+    "src": "resources/js/Pages/pages/Schedule/EditSchedule.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_PurePanel-BNlV4Pjj.js",
+      "_clsx-B-dksMZM.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Schedule/TeacherScheduleList.jsx": {
+    "file": "assets/TeacherScheduleList-BAwnl9G_.js",
+    "name": "TeacherScheduleList",
+    "src": "resources/js/Pages/pages/Schedule/TeacherScheduleList.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_Pagination-rdYSm_T_.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Tables/BasicTables.jsx": {
+    "file": "assets/BasicTables-CWbvHP8p.js",
+    "name": "BasicTables",
+    "src": "resources/js/Pages/pages/Tables/BasicTables.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_ComponentCard-DzR7vOyC.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_Badge-BFSTZFyp.js"
+    ]
+  },
+  "resources/js/Pages/pages/UiElements/Alerts.jsx": {
+    "file": "assets/Alerts-DFE9W3MB.js",
+    "name": "Alerts",
+    "src": "resources/js/Pages/pages/UiElements/Alerts.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_ComponentCard-DzR7vOyC.js",
+      "_PageMeta-WwP9N5ca.js"
+    ]
+  },
+  "resources/js/Pages/pages/UiElements/Avatars.jsx": {
+    "file": "assets/Avatars-BcfUTRuL.js",
+    "name": "Avatars",
+    "src": "resources/js/Pages/pages/UiElements/Avatars.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_ComponentCard-DzR7vOyC.js",
+      "_PageMeta-WwP9N5ca.js"
+    ]
+  },
+  "resources/js/Pages/pages/UiElements/Badges.jsx": {
+    "file": "assets/Badges-BCRurVIU.js",
+    "name": "Badges",
+    "src": "resources/js/Pages/pages/UiElements/Badges.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_Badge-BFSTZFyp.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_ComponentCard-DzR7vOyC.js"
+    ]
+  },
+  "resources/js/Pages/pages/UiElements/Buttons.jsx": {
+    "file": "assets/Buttons-DgIkInWP.js",
+    "name": "Buttons",
+    "src": "resources/js/Pages/pages/UiElements/Buttons.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_ComponentCard-DzR7vOyC.js",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_Button-CepcnBa8.js"
+    ]
+  },
+  "resources/js/Pages/pages/UiElements/Videos.jsx": {
+    "file": "assets/Videos-CZ3GnMtK.js",
+    "name": "Videos",
+    "src": "resources/js/Pages/pages/UiElements/Videos.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_ComponentCard-DzR7vOyC.js",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_PageMeta-WwP9N5ca.js"
+    ]
+  },
+  "resources/js/Pages/pages/UnattendedList.jsx": {
+    "file": "assets/UnattendedList-ByUg9JWg.js",
+    "name": "UnattendedList",
+    "src": "resources/js/Pages/pages/UnattendedList.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageMeta-WwP9N5ca.js",
+      "_AppLayout-C6t-PRuo.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/UserProfiles.jsx": {
+    "file": "assets/UserProfiles-twLZ1EXN.js",
+    "name": "UserProfiles",
+    "src": "resources/js/Pages/pages/UserProfiles.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PageBreadCrumb-BmYRIvfY.js",
+      "_useModal-D3Uoha5y.js",
+      "_Button-CepcnBa8.js",
+      "_InputField-AGAXowZ_.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_clsx-B-dksMZM.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/AddStudent.jsx": {
+    "file": "assets/AddStudent-BO2LDaJA.js",
+    "name": "AddStudent",
+    "src": "resources/js/Pages/pages/Users/AddStudent.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/AddTeacher.jsx": {
+    "file": "assets/AddTeacher-CHJcsGYc.js",
+    "name": "AddTeacher",
+    "src": "resources/js/Pages/pages/Users/AddTeacher.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/EditProfile.jsx": {
+    "file": "assets/EditProfile-CjL55SAo.js",
+    "name": "EditProfile",
+    "src": "resources/js/Pages/pages/Users/EditProfile.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/EditStudent.jsx": {
+    "file": "assets/EditStudent-DYDq7eHT.js",
+    "name": "EditStudent",
+    "src": "resources/js/Pages/pages/Users/EditStudent.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/EditTeacher.jsx": {
+    "file": "assets/EditTeacher-BSO8kehv.js",
+    "name": "EditTeacher",
+    "src": "resources/js/Pages/pages/Users/EditTeacher.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/Students.jsx": {
+    "file": "assets/Students-BHIteSDF.js",
+    "name": "Students",
+    "src": "resources/js/Pages/pages/Users/Students.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/Pages/pages/Users/Teachers.jsx": {
+    "file": "assets/Teachers-TLYHRS7E.js",
+    "name": "Teachers",
+    "src": "resources/js/Pages/pages/Users/Teachers.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppLayout-C6t-PRuo.js",
+      "_PageMeta-WwP9N5ca.js",
+      "_sweetalert2.esm.all-B3GDCxSY.js",
+      "_calender-line-CgieKiv7.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-BpMrd8A8.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/pages/Appointment/BookAppointment.jsx",
+      "resources/js/Pages/pages/AppointmentList/StudentAppointmentList.jsx",
+      "resources/js/Pages/pages/AppointmentList/TeacherAppointmentList.jsx",
+      "resources/js/Pages/pages/AuthPages/AuthPageLayout.jsx",
+      "resources/js/Pages/pages/AuthPages/SignIn.jsx",
+      "resources/js/Pages/pages/AuthPages/SignUp.jsx",
+      "resources/js/Pages/pages/Calendar.jsx",
+      "resources/js/Pages/pages/Calendar/StudentCalendar.jsx",
+      "resources/js/Pages/pages/Dashboard/Admin/AdminDashboard.jsx",
+      "resources/js/Pages/pages/Dashboard/Home.jsx",
+      "resources/js/Pages/pages/Dashboard/Student/StudentDashboard.jsx",
+      "resources/js/Pages/pages/Dashboard/Teacher/TeacherDashboard.jsx",
+      "resources/js/Pages/pages/Forms/FormElements.jsx",
+      "resources/js/Pages/pages/Schedule/AddSchedule.jsx",
+      "resources/js/Pages/pages/Schedule/EditSchedule.jsx",
+      "resources/js/Pages/pages/Schedule/TeacherScheduleList.jsx",
+      "resources/js/Pages/pages/Tables/BasicTables.jsx",
+      "resources/js/Pages/pages/UiElements/Alerts.jsx",
+      "resources/js/Pages/pages/UiElements/Avatars.jsx",
+      "resources/js/Pages/pages/UiElements/Badges.jsx",
+      "resources/js/Pages/pages/UiElements/Buttons.jsx",
+      "resources/js/Pages/pages/UiElements/Videos.jsx",
+      "resources/js/Pages/pages/UnattendedList.jsx",
+      "resources/js/Pages/pages/UserProfiles.jsx",
+      "resources/js/Pages/pages/Users/AddStudent.jsx",
+      "resources/js/Pages/pages/Users/AddTeacher.jsx",
+      "resources/js/Pages/pages/Users/EditProfile.jsx",
+      "resources/js/Pages/pages/Users/EditStudent.jsx",
+      "resources/js/Pages/pages/Users/EditTeacher.jsx",
+      "resources/js/Pages/pages/Users/Students.jsx",
+      "resources/js/Pages/pages/Users/Teachers.jsx"
+    ],
+    "css": [
+      "assets/app-Cs9XIEGw.css"
+    ]
+  }
+}
