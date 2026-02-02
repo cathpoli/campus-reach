@@ -74,7 +74,7 @@ export default function SignInForm() {
 									</div>
 									{errors.password && <div className="mt-1 text-sm text-error-500">{errors.password}</div>}
 								</div>
-								<div className="flex items-center justify-between">
+								{/* <div className="flex items-center justify-between">
 									<div className="flex items-center gap-3">
 										<Checkbox 
 											checked={data.remember} 
@@ -90,12 +90,23 @@ export default function SignInForm() {
 									>
 										Forgot password?
 									</Link>
-								</div>
+								</div> */}
 								<div>
 									<Button type="submit" className="w-full" size="sm" disabled={processing}>
 										{processing ? 'Signing in...' : 'Sign in'}
 									</Button>
 								</div>
+								<div className="bg-blue-50 text-blue-800 border-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:border-blue-800 p-4 border rounded-lg text-sm justify-items-center" role="alert">
+                                    <p><b>Demo Account for teacher</b></p>
+									<p>Email: m.chen@school.edu</p>
+									<p>Password: password123</p>
+
+									<br />
+
+									<p><b>Demo Account for student</b></p>
+									<p>Email: j.reyes@school.edu</p>
+									<p>Password: password123</p>
+                                </div>
 							</div>
 						</form>
 
